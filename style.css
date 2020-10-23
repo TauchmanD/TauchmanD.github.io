@@ -9,3 +9,6 @@ a{
     flex-wrap: wrap;
     justify-content: space-around;
 }
+.bigimg{
+    width: 80%;
+}
