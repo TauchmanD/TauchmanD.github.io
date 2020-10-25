@@ -12,3 +12,6 @@ a{
 .bigimg{
     width: 80%;
 }
+#obrázky{
+    display: none;
+}
