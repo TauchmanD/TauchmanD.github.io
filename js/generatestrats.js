@@ -1,8 +1,10 @@
 init = () => {
+    document.querySelector("#reshuffle").addEventListener("click", reshuffle);
+
     let runy = [
         "Každý musí mít jako hlavní runu Unsealed Spellbook",
         "Každý musí mít jako hlavní runu Prototype: Omnistone",
-        "Každý musí mít jako hlavní runu Future's Market",
+        "Každý musí mít jako runu Future's Market",
 
     ];
     let champs = [
@@ -66,6 +68,10 @@ init = () => {
 
 
     
+}
+
+reshuffle = () => {
+    location.reload();
 }
 
 document.addEventListener("DOMContentLoaded", init);
