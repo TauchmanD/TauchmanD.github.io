@@ -1,0 +1,26 @@
+#players {
+    text-align: center;
+}
+#players * {
+    position: relative;
+}
+
+.right {
+    animation-name: right;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+}
+@keyframes right {
+    from {left: 0%}
+    to {left: 25%}
+  }
+
+  .left{
+    animation-name: left;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+}
+@keyframes left {
+    from {left: 0%}
+    to {left: -25%}
+  }
