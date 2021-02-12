@@ -31,11 +31,11 @@ init = () => {
         "Tým pouze z champů z Bandle City",
         "Všichni musí hrát ranged champa",
         "Všichni musí hrát champa na blízko",
-        "V teamu musí být minimálně jedna dvojce champů, která má mezi sebou nějaký vztah (<a href='https://preview.redd.it/clajx2euo4731.png?width=1236&format=png&auto=webp&s=07bc3d7da70bdb8bcc6b2cedd9749af53f17b279'>obrázek</a>). Počítají se vztahy Family / Strong Relationship, Mentor, Romantic, Possible Romantic Relationship, One-sided Romantic Relationship, Drinking Buddies.",
+        "V teamu musí být minimálně jedna dvojce champů, která má mezi sebou nějaký vztah (<a target=\"_blank\" href='https://preview.redd.it/clajx2euo4731.png?width=1236&format=png&auto=webp&s=07bc3d7da70bdb8bcc6b2cedd9749af53f17b279'>obrázek</a>). Počítají se vztahy Family / Strong Relationship, Mentor, Romantic, Possible Romantic Relationship, One-sided Romantic Relationship, Drinking Buddies.",
         "V teamu musí být champové ženského pohlaví (Taric se nepočítá ;-))) )",
         "Všichni musí picknout champa s globální ultinou",
         "Všichni champové musí začínat na stejné počáteční písmeno",
-        "Všichni si musí na <a href='https://u.gg/lol/top-lane-tier-list'>této stránce</a> najít svou linku, seřadit si champy podle win ratu od nejnižšího po nejvyšší a hrát jednoho z 5 nejhorších champů"
+        "Všichni si musí na <a target=\"_blank\" href='https://u.gg/lol/top-lane-tier-list'>této stránce</a> najít svou linku, seřadit si champy podle win ratu od nejnižšího po nejvyšší a hrát jednoho z 5 nejhorších champů"
     ];
     let items = [
         "Všichni musí postavit duskblade",
