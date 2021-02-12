@@ -23,6 +23,8 @@ init = () => {
         "Všichni musí hrát champa na blízko",
         "V teamu musí být minimálně jedna dvojce champů, která má mezi sebou nějaký vztah (<a href='https://preview.redd.it/clajx2euo4731.png?width=1236&format=png&auto=webp&s=07bc3d7da70bdb8bcc6b2cedd9749af53f17b279'>obrázek</a>). Počítají se vztahy Family / Strong Relationship, Mentor, Romantic, Possible Romantic Relationship, One-sided Romantic Relationship, Drinking Buddies.",
         "V teamu musí být champové ženského pohlaví (Taric se nepočítá ;-))) )",
+        "Všichni musí picknout champa s globální ultinou",
+        "Všichni champové musí začínat na stejné počáteční písmeno"
     ];
     let items = [
         "Všichni musí postavit duskblade",
@@ -31,7 +33,9 @@ init = () => {
     let dk = [
         "Jungler musí každých 5 minut od začátku hry až do 20. minuty jít do enemy jungle a vyčistit alespoň jeden camp. Celkově tedy vezme minimálně 4 campy. Dokud nezemře/nevyčistí camp, nemůže odejít",
         "Ve chvíli, kdy se někomu podaří multikill, se musí daný hráč, kterému se multikill podařil, přestat hýbat a castit spelly a 5 vteřin jen spamovat CTRL + 1/2/3/4",
-        "Pokaždé, když se někomu z teamu podaří multikill, se musí daný hráč zastavit, necastit spelly a ihned do chatu napsat libovolnou hlášku, kterou postava, za kterou hraje, říká (při pickování, banování, cokoli) a v češtině"
+        "Pokaždé, když se někomu z teamu podaří multikill, se musí daný hráč zastavit, necastit spelly a ihned do chatu napsat libovolnou hlášku, kterou postava, za kterou hraje, říká (při pickování, banování, cokoli) a v češtině",
+        "Pokaždé, když vezmete epic monstrum, musí jungler napsat \"jungle diff\"",
+        "Jungler si musí vybrat 2 typy campů, které nesmí po celou dobu hry zabíjet"
     ];
     let runStrat = runy[Math.floor(Math.random() * runy.length)];
     let champsStrat = champs[Math.floor(Math.random() * champs.length)];
