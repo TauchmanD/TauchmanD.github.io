@@ -14,7 +14,7 @@ init = () => {
         "Každý musí mít jako runu Demolish",
         "Všichni musí mít smite",
         "Nikdo nesmí mít flash",
-        "Všichni musí mít cleanse a ghost",
+        "Všichni musí mít cleanse a ghost (jungler může mít smite)",
         "Všichni si musí vzít Predatora a Relentless Huntera v runách",
         "Všichni si musí obrátit summoner spelly (D a F)",
 
@@ -68,13 +68,13 @@ init = () => {
         "Vyměň si quick cast a normal cast a naopak",
         "Když se spawne Baron, tak ho všichni, kdo jsou aktuálně živí, MUSÍ vždycky jít fightit",
         "Libovolný hráč v týmu musí picknout Wukonga a ve 3. a 6. minutě musí rundownout mid pod enemy turretu a umřít",
-        "Dejte si celý interface size scale na 100% a minimapu na levo",
+        "Dejte si celý interface size scale na 100% a minimapu na levo a zapněte si autoattack",
         "Všichni musíte mít nascrollovanou kameru na půlku",
         "Všichni musíte mít locknutou kameru",
         "Dej si ability na šipky",
         "Pokud missneš canona, okamžitě přestaň hrát a udělej 5 kliků",
-        "Každou pátou minutu se musí celý team mutnout a může komunikovat pouze přes pingy a chat (lol vc není povolen). První mute tedy začíná na 5:00 a končí v 6:00... další v 10:00 atd."
-
+        "Každou pátou minutu se musí celý team mutnout a může komunikovat pouze přes pingy a chat (lol vc není povolen). První mute tedy začíná na 5:00 a končí v 6:00... další v 10:00 atd.",
+        "Dej si R na Q, E na W, W na E a Q na R",
     ];
     let runStrat = runy[Math.floor(Math.random() * runy.length)];
     let champsStrat = champs[Math.floor(Math.random() * champs.length)];
