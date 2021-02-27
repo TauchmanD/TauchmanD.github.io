@@ -50,7 +50,7 @@ init = () => {
         "Všichni musí postavit duskblade",
         "Nikdo nesmí postavit itemy, které dávají movement speed",
         "Každý musí postavit jako první item Zhonya's Hourglass",
-        "Každý musí postavit jako první item Shurelya's Reverie",
+        "Každý musí postavit jako první item Shurelya's Battleson",
         "Hráč nesmí upgradovat své boty, dokud nemá 5 killů nebo 10 assistů",
         "Všichni můžou stavět jenom itemy, co dávají ability haste (celé itemy, na malé to neplatí)",
         "Všechny itemy, co postavíš, musí být zelené nebo tyrkysové",
