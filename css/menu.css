@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto", sans-serif;
+}
+nav {
+  background-color: #272727;
+}
+.navbar {
+  height: 10vh;
+  width: 100%;
+  color: #fffbfa;
+  text-align: center;
+  position: relative;
+}
+.navbar > svg {
+  position: absolute;
+  right: 0%;
+  top: 55%;
+  cursor: pointer;
+  transform: translate(-50%, -50%);
+  fill: #256eff;
+}
+.navbar > h1 {
+  font-weight: 400;
+  position: absolute;
+  font-size: 4.5vh;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+svg {
+  width: 40px;
+}
+.icon-close {
+  position: absolute;
+  right: 0%;
+  top: 6%;
+  cursor: pointer;
+  transform: translate(-50%, -50%);
+  fill: #256eff;
+}
+.menu {
+  position: fixed;
+  top: 0%;
+  width: 100%;
+  height: 100%;
+  background-color: #272727;
+  transform: translateX(100%);
+  transition: all 0.5s ease-in-out;
+}
+.open {
+  transform: translateX(0%);
+}
+.menu > h1 {
+  font-weight: 400;
+  position: absolute;
+  font-size: 4.5vh;
+  left: 50%;
+  top: 5%;
+  transform: translate(-50%, -50%);
+  color: #fffbfa;
+}
+.links {
+  position: absolute;
+  left: 50%;
+  top: 40%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  color: #fffbfa;
+}
+.link {
+  margin: 0.5em;
+}
