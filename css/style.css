@@ -2,3 +2,25 @@
     margin: 0;
     background-color: black;
 }
+
+#intro{
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    position: fixed;
+    text-align: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+}
+
+@keyframes intro-anim {
+    0%{
+        transform: translateY(0);
+    }
+    100%{
+        transform: translateY(-100%);
+    }
+}
