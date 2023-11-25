@@ -26,7 +26,7 @@
     flex-direction: column;
     justify-content: center;
     margin-top: 2rem;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -30%);
     opacity: 0;
 }
 .content > *{
@@ -65,6 +65,12 @@
     bottom: -0.4rem;
     height: 1px;
     width: 100%;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+    transition: 0.2s ease-in-out;
 }
 
 @keyframes content-in {

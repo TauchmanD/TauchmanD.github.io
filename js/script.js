@@ -18,6 +18,12 @@ const init = () =>{
             content.style = "animation: content-in 2.5s forwards;"
         }
     }, 100);
+    const age = setInterval(()=>{
+        let t = Date.now()
+        let b = new Date(2002, 8, 14).getTime()
+        let age = document.getElementById("age")
+        age.innerHTML = ((t-b)/31557600000).toFixed(9)
+    }, 500)
 
 }
 document.addEventListener("DOMContentLoaded", init)
